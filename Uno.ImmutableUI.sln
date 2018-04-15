@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27520.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uno.ImmutableUI", "Uno.ImmutableUI\Uno.ImmutableUI.csproj", "{2903BA0B-DF57-40AB-8904-A3D8063D2FFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2903BA0B-DF57-40AB-8904-A3D8063D2FFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2903BA0B-DF57-40AB-8904-A3D8063D2FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2903BA0B-DF57-40AB-8904-A3D8063D2FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2903BA0B-DF57-40AB-8904-A3D8063D2FFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D92FBD69-25A8-48D4-882E-16D68DA6F468}
+	EndGlobalSection
+EndGlobal
