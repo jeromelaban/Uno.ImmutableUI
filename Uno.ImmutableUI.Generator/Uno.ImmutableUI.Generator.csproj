@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+		<IsTool>true</IsTool>
+  </PropertyGroup>
+
+  <ItemGroup>
+		<PackageReference Include="Uno.Equality" Version="1.21.0" />
+		<PackageReference Include="Uno.Roslyn" Version="1.2.0-dev.15" />
+		<PackageReference Include="Uno.SourceGeneration" Version="1.22.0-dev.32" PrivateAssets="All" />
+		<PackageReference Include="Uno.SourceGenerationTasks" Version="1.22.0-dev.32" PrivateAssets="None" />
+	</ItemGroup>
+
+  <ItemGroup>
+		<Content Include="build\Uno.ImmutableUI.Generator.props">
+			<Pack>true</Pack>
+			<PackagePath>build</PackagePath>
+		</Content>
+  </ItemGroup>
+
+</Project>

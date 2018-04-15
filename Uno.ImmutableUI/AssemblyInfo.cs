@@ -1,0 +1,1 @@
+﻿//[assembly: Uno.ImmutableGenerationOptions(TreatArrayAsImmutable = true)]

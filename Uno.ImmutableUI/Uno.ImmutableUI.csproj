@@ -1,7 +1,15 @@
-<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="MSBuild.Sdk.Extras/1.2.2">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>uap10.0.16299</TargetFrameworks>
   </PropertyGroup>
 
+	<ItemGroup>
+		<PackageReference Include="Uno.CodeGen" Version="1.21.0" />
+		<PackageReference Include="Uno.Equality" Version="1.21.0" />
+		<PackageReference Include="Uno.Immutables" Version="1.21.0" />
+		<PackageReference Include="Uno.SourceGenerationTasks" Version="1.22.0-dev.32" />
+	</ItemGroup>
+
+	<Import Project="..\Uno.ImmutableUI.Generator\build\Uno.ImmutableUI.Generator.props" />
 </Project>

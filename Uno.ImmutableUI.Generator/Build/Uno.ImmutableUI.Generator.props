@@ -1,0 +1,13 @@
+<Project>
+	
+	<ItemGroup>
+		<!--This property is used when the generator is used inside the same solution-->
+		<SourceGenerator Include="$(MSBuildThisFileDirectory)..\bin\$(Configuration)\netstandard2.0\Uno.ImmutableUI.Generator.dll" 
+										 Condition="Exists('$(MSBuildThisFileDirectory)..\bin')" />
+		
+		<!-- This property is used when the generator is used from a nuget package -->
+		<SourceGenerator Include="$(MSBuildThisFileDirectory)..\tools\Uno.ImmutableUI.Generator.dll" 
+										 Condition="Exists('$(MSBuildThisFileDirectory)..\tools')" />
+	</ItemGroup>
+
+</Project>
